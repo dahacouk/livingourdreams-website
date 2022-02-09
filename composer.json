@@ -18,10 +18,10 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.7",
-        "drupal/core-composer-scaffold":"^8.9",
-        "drupal/core-recommended":"^8.9",
         "drupal/console": "^1.0.2",
-        "drupal/markdown": "^1.2",
+        "drupal/core-composer-scaffold": "^8.9",
+        "drupal/core-recommended": "^8.9",
+        "drupal/markdown": "^3.0@RC",
         "drupal/redirect": "^1.2",
         "drush/drush": "^9.0.0",
         "michelf/php-markdown": "^1.8",
