@@ -23,7 +23,7 @@
         "drupal/core-recommended": "^8.9",
         "drupal/markdown": "^3.0@RC",
         "drupal/redirect": "^1.2",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^10",
         "michelf/php-markdown": "^1.8",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
