@@ -18,9 +18,9 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.7",
-        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/core-composer-scaffold":"^8.9",
+        "drupal/core-recommended":"^8.9",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.8@beta",
         "drupal/markdown": "^1.2",
         "drupal/redirect": "^1.2",
         "drush/drush": "^9.0.0",
@@ -74,9 +74,8 @@
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "drupal-scaffold": {
-            "initial": {
-                ".editorconfig": "../.editorconfig",
-                ".gitattributes": "../.gitattributes"
+            "locations": {
+                "web-root": "web/"
             }
         }
     }
